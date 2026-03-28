@@ -8,8 +8,8 @@
 #include <stdio.h>
 
 void comparar_Funcionarios(int notas_Funcionario_1[], int notas_Funcionario_2[], int tamanho) {
-    int pontosA = 0;
-    int pontosB = 0;
+    int pontos1 = 0;
+    int pontos2 = 0;
 
     for (int categoria = 0; categoria < tamanho; categoria++) {
         if (notas_Funcionario_1[categoria] > notas_Funcionario_2[categoria]) {
